@@ -15,7 +15,7 @@
   border-radius: 12px;
   background-color: #fff;
   height: 80px;
-  width: 400px;
+  min-width: 400px;
 }
 
 .title {
@@ -30,7 +30,8 @@
   gap: 15px;
 }
 
-.buttons button {
+.buttons button,
+input {
   background-color: transparent;
   border: 1px solid #000;
   padding: 6px 25px;
